@@ -7,10 +7,28 @@
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
+/* GENERAL :
+------------------------------------------------------------------*/
+a {
+  text-decoration: none;
+}
+
+i {
+  padding: 0 5px;
+}
+
+.special-paw {
+  display: flex;
+}
+
+.special-paw i {
+  margin-right: 5px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
 /* HEADER :
 ------------------------------------------------------------------*/
 header {
-  text-align: center;
   height: 200px;
   padding-top: 40px;
 }
@@ -22,8 +40,104 @@ header p {
 
 /* FORM :
 ------------------------------------------------------------------*/
+/* GENERAL ====================================================== */
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.input-div p,
+.input-div label {
+  padding-bottom: 10px;
+}
+
+.input-div input {
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-color: transparent;
+  opacity: 0.9;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* RADIO BTNS =================================================== */
+.radio-btns {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.radio-btns label {
+  filter: hue-rotate(80deg);
+}
+/* DROPDOWN ===================================================== */
+.dropdown {
+  margin-bottom: 30px;
+}
+
+.dropdown select {
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.dropdown p {
+  padding-bottom: 10px;
+}
+
+/* CHECKBOXES  =================================================== */
+.checkbox-options {
+  padding: 10px 0;
+}
+
+.checkbox-options input {
+  filter: hue-rotate(80deg);
+}
+/* TEXTAREA ===================================================== */
+.textarea-div {
+  margin: 15px 0;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 10px 10px 20px;
+  border-radius: 5px;
+  border-color: transparent;
+  opacity: 0.9;
+}
+
+/* SUBMIT BUTTON =============================================== */
+.submit-div {
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.submit-div button {
+  border: transparent;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* FOOTER :
 ------------------------------------------------------------------*/
+footer {
+  padding: 30px;
+}
+
+footer a {
+  padding-bottom: 4px;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
