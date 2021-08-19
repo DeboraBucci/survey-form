@@ -53,6 +53,14 @@ i {
 form i {
   color: var(--paws);
 }
+
+.radio-btns label {
+  filter: hue-rotate(80deg);
+}
+
+.checkbox-options input {
+  filter: hue-rotate(80deg);
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* SHADOWS :
@@ -70,6 +78,7 @@ h2 {
 .submit-div button:focus {
   box-shadow: 3px 3px 10px black;
 }
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* HOVER & FOCUS :
