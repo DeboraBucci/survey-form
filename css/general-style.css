@@ -9,6 +9,15 @@
 
 /* HEADER :
 ------------------------------------------------------------------*/
+header {
+  text-align: center;
+  height: 200px;
+  padding-top: 40px;
+}
+
+header p {
+  padding-top: 30px;
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* FORM :
