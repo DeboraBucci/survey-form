@@ -1,0 +1,14 @@
+/* FONT FAMILY */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Poiret One", cursive;
+}
+
+input,
+textarea,
+header p {
+  font-family: "Exo 2", sans-serif;
+}
