@@ -78,6 +78,12 @@ input[type="radio"] {
   padding: 20px 0;
 }
 
+<<<<<<< HEAD
+=======
+.radio-btns label {
+  filter: hue-rotate(80deg);
+}
+>>>>>>> 65c8de5e41e87874baff1f60b09df3bfdd492902
 /* DROPDOWN ===================================================== */
 .dropdown {
   margin-bottom: 30px;
@@ -98,6 +104,12 @@ input[type="radio"] {
   padding: 10px 0;
 }
 
+<<<<<<< HEAD
+=======
+.checkbox-options input {
+  filter: hue-rotate(80deg);
+}
+>>>>>>> 65c8de5e41e87874baff1f60b09df3bfdd492902
 /* TEXTAREA ===================================================== */
 .textarea-div {
   margin: 15px 0;
