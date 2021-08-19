@@ -16,14 +16,6 @@ a {
 i {
   padding: 0 5px;
 }
-
-.special-paw {
-  display: flex;
-}
-
-.special-paw i {
-  margin-right: 5px;
-}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* HEADER :
@@ -47,6 +39,15 @@ form {
   padding: 20px 30px;
 }
 
+.special-paw {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.special-paw i {
+  margin-right: 5px;
+}
+
 .input-div {
   display: flex;
   flex-direction: column;
@@ -58,7 +59,8 @@ form {
   padding-bottom: 10px;
 }
 
-.input-div input {
+.input-div input,
+#dropdown {
   height: 40px;
   padding-left: 10px;
   border-radius: 5px;
@@ -78,12 +80,6 @@ input[type="radio"] {
   padding: 20px 0;
 }
 
-<<<<<<< HEAD
-=======
-.radio-btns label {
-  filter: hue-rotate(80deg);
-}
->>>>>>> 65c8de5e41e87874baff1f60b09df3bfdd492902
 /* DROPDOWN ===================================================== */
 .dropdown {
   margin-bottom: 30px;
@@ -91,8 +87,6 @@ input[type="radio"] {
 
 .dropdown select {
   width: 100%;
-  border-radius: 4px;
-  padding: 5px;
 }
 
 .dropdown p {
@@ -104,12 +98,6 @@ input[type="radio"] {
   padding: 10px 0;
 }
 
-<<<<<<< HEAD
-=======
-.checkbox-options input {
-  filter: hue-rotate(80deg);
-}
->>>>>>> 65c8de5e41e87874baff1f60b09df3bfdd492902
 /* TEXTAREA ===================================================== */
 .textarea-div {
   margin: 15px 0;
@@ -118,7 +106,7 @@ input[type="radio"] {
 textarea {
   width: 100%;
   margin: 10px 0;
-  padding: 10px 10px 10px 20px;
+  padding: 10px;
   border-radius: 5px;
   border-color: transparent;
   opacity: 0.9;

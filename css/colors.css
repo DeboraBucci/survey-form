@@ -27,8 +27,16 @@ body {
   color: aliceblue;
 }
 
+i {
+  color: var(--text);
+}
+
 form {
   background: var(--color-one);
+}
+
+form i {
+  color: var(--paws);
 }
 
 input,
@@ -44,14 +52,6 @@ select {
 
 footer a {
   color: var(--btn-link);
-}
-
-i {
-  color: var(--text);
-}
-
-form i {
-  color: var(--paws);
 }
 
 .radio-btns label {
@@ -73,12 +73,6 @@ h1 {
 h2 {
   text-shadow: 0 5px 10px var(--shadow), 0 0 30px var(--shadow);
 }
-
-.submit-div button:hover,
-.submit-div button:focus {
-  box-shadow: 3px 3px 10px black;
-}
-
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* HOVER & FOCUS :
