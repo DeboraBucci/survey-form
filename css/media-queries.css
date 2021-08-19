@@ -1,0 +1,16 @@
+@media (min-width: 815px) {
+  body {
+    background: linear-gradient(150deg, #334d99, #486ddb80, #a7b2e2),
+      url("../images/Background.jpg") no-repeat center center / cover;
+  }
+
+  form {
+    opacity: 0.85;
+    border-radius: 10px;
+  }
+
+  footer {
+    background: #2c1338;
+    margin-top: 100px;
+  }
+}
