@@ -8,6 +8,10 @@
   --color-one: #17203d;
   --color-two: #474747;
   --shadow: #0e091b;
+  --btn-link: #b12a8f;
+  --btn-hov: #df46b9;
+  --link-hov: #f5c7e9;
+  --paws: #f792c4;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
@@ -32,6 +36,23 @@ textarea,
 select {
   color: var(--color-two);
 }
+
+.submit-div button {
+  background: var(--btn-link);
+  color: var(--text);
+}
+
+footer a {
+  color: var(--btn-link);
+}
+
+i {
+  color: var(--text);
+}
+
+form i {
+  color: var(--paws);
+}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* SHADOWS :
@@ -43,5 +64,29 @@ h1 {
 
 h2 {
   text-shadow: 0 5px 10px var(--shadow), 0 0 30px var(--shadow);
+}
+
+.submit-div button:hover,
+.submit-div button:focus {
+  box-shadow: 3px 3px 10px black;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* HOVER & FOCUS :
+------------------------------------------------------------------*/
+.submit-div button:hover,
+.submit-div button:focus {
+  box-shadow: 3px 3px 10px black;
+}
+
+.special-link:hover,
+.special-link:focus {
+  color: var(--link-hov);
+  border-bottom: 1px solid var(--link-hov);
+}
+
+footer i:hover,
+footer i:focus {
+  color: var(--link-hov);
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
